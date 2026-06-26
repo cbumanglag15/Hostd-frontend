@@ -1,10 +1,15 @@
-import Hello from "./components/Hello.tsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage.tsx";
+import LoginPage from "./pages/LoginPage.tsx";
 
 function App() {
   return (
-    <main className="app-shell">
-      <Hello name="Rob" message="Welcome to the app!" age={30} />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
