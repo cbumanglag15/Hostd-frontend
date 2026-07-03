@@ -1,11 +1,10 @@
+import './HomePageBody.css';
+
 export default function HomePageBody() {
     return (
-        <div className="home-page-body">
-            <p className="home-description">
-                Welcome to Hostd, your ultimate platform for hosting and managing your
-                online presence. Whether you're a developer, a business owner, or an
-                individual looking to showcase your work, Hostd provides the tools and
-                resources you need to succeed.
+        <div className="homePageBodyContainer">
+            <p className="homePageBodyText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
     );

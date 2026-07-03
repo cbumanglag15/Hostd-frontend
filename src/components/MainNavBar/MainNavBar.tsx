@@ -1,10 +1,18 @@
+import "./MainNavBar.css";
 export default function MainNavBar() {
     return (
-        <div className="main-nav-bar">
-            <nav>
-                <a href="/">Home</a>
-                <a href="/login">Login</a>
+        <div className="mainNavBar">
+            <nav className="mainNavBarLinks">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/">Offers</a></li>
+                    <li><a href="/">Hostd Rewards Club</a></li>
+                    <li><a href="/">Products</a></li>
+                    <li><a href="/">Hostd For Businesses</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
             </nav>
         </div>
     );
-} 
+}

@@ -3,9 +3,11 @@ import "./MainHeader.css";
 
 export default function MainHeader() {
   return (
-    <header className="main-header">
-      <h1 className="welcome-message">Hostd</h1>
+    <div className="main-header">
+      <a href="/" className="logo-link">
+        <img className="hostd-logo" src="/logos/hostd-logo.png" alt="Hostd Logo" />
+      </a>
       <MainNavBar />
-    </header>
+    </div>
   );
 }

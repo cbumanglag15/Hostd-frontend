@@ -1,0 +1,35 @@
+.mainNavBar {
+    background-color: #375E77;
+    overflow: hidden;
+    padding: 10px;
+    flex: 0 0 75%;
+    max-width: 75%;
+    margin: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mainNavBarLinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.mainNavBarLinks li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+.mainNavBarLinks li {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+.mainNavBarLinks li:hover {
+    text-decoration: underline;
+}

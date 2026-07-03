@@ -1,0 +1,14 @@
+.homePageBodyContainer {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.homePageBodyText {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #333;
+  margin-top: 20px;
+  padding: 10px;
+}

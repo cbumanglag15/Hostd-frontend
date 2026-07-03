@@ -6,10 +6,13 @@ import "./HomePage.css";
 export default function HomePage() {
 
   return (
-    <div className="main-page">
-      <MainHeader />
-      <HomePageBody />
-      <MainFooter />
+    <div className="mainPage">
+      <div className="hotelBackground" />
+      <div className="pageContent">
+        <MainHeader />
+        <HomePageBody />
+        <MainFooter />
+      </div>
     </div>
   );
 }
