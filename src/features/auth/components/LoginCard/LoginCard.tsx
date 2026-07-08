@@ -1,7 +1,7 @@
 import "./LoginCard.css";
 import { useState } from "react";
-import type {LoginCredentials} from "@/types/Login";
-import {authLoginUser} from "@/services/AuthUserLoginCreds.ts";
+import type {LoginCredentials} from "@/features/auth/types/Login";
+import { authLoginUser } from "@/features/auth/services/authUserLoginCreds";
 
 export default function LoginCard() {
     const [userCreds, setUserCreds] = useState<LoginCredentials>({
