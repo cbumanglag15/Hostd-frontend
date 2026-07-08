@@ -1,4 +1,4 @@
-import LoginCard from "@/components/LoginCard/LoginCard.tsx";
+import LoginCard from "@/features/auth/components/LoginCard/LoginCard";
 import "./LoginPage.css";
 
 export default function LoginPage() {
